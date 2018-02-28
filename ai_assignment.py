@@ -14,7 +14,7 @@ np.random.seed(5)
 
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 
-#convert Numpy array from 2D to 1D
+#Numpy array converted from 2D to 1D
 X_train = X_train.reshape(X_train.shape[0], 784).astype('float32')
 X_test = X_test.reshape(X_test.shape[0], 784).astype('float32')
 
