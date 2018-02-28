@@ -56,7 +56,6 @@ model_relu.add(Dense(784 , input_dim=784, kernel_initializer='random_uniform',ac
 
 model_relu.add(Dense(16 , activation='relu'))
 model_relu.add(Dense(16 , activation='relu'))
-
 model_relu.add(Dense(10 , activation='sigmoid'))
 
 model_relu.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
